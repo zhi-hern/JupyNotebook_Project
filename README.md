@@ -22,3 +22,11 @@ This project showcases my proficiency to perform EDA and data visualization on P
 | CEO | Company's current CEO |
 | Employees | Current number of employees |
 
+### Further financial analysis:
+- Perplexity AI was used to suggest some financial method to further analyze the companies.
+- Below shows the index used in this project with some assumptions made :
+
+<img width="512" alt="image" src="https://github.com/user-attachments/assets/18b1384b-359f-4bad-a1df-4bb9b55db5c9"> <br>
+<img width="484" alt="image" src="https://github.com/user-attachments/assets/a9757dab-cd68-4bb6-8b51-33e9fad0b161"> <br>
+<img width="496" alt="image" src="https://github.com/user-attachments/assets/61741fff-9987-40b6-9238-bb8635cbd745">
+
