@@ -22,6 +22,13 @@ This project showcases my proficiency to perform EDA and data visualization on P
 | CEO | Company's current CEO |
 | Employees | Current number of employees |
 
+### Libraries Used
+| Library        | Method Used         |
+| --------       | ------------------- |
+| Pandas (pd)    | `.read_csv()`, `.info()`, `.drop()`, `.head()`, `.rename()`<br> `.duplicated()`, `.replace()`, `.isnull()`, `.loc[]`<br> `.value_counts()`, `reset_index()`, `.groupby()`, `.sort_values()`, <br> `.astype()`, `.describe()`, `.insert()`, `.agg()`, `.merge()` |
+| Matplotlib.pyplot (plt)| `.figure()`, `.xlabel()`, `.ylabel()`, `.title()` , `.xticks()` |
+| Seaborn (sns)  | `.barplot()`, `.boxplot()` |
+
 ### Further financial analysis:
 - Perplexity AI was used to suggest some financial method to further analyze the companies.
 - Below shows the index used in this project with some assumptions made :
