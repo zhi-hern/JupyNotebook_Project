@@ -1,5 +1,5 @@
 # Jupyter_Notebook_Project
-This project showcases my proficiency to perform EDA and data visualization on Python.
+This project showcases my proficiency to perform EDA and data visualization using Python.
 
 ## Analysis on Forbes Top 2000's Companies
 [[Analysis on Forbes Top 2000 Companies.ipynb]](https://github.com/zhi-hern/JupyNotebook_Project/blob/main/Analysis%20on%20Forbes%20Top%202000%20Companies.ipynb) <br>
