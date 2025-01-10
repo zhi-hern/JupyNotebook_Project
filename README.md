@@ -36,8 +36,10 @@ The EDA process I took roughly follows the steps outlined below:
 <img width="727" alt="EDA-6-stages" src="https://github.com/user-attachments/assets/127af722-7113-4248-b4ef-d7c7ef743e4a" />
 
 1) Discovering :
-- After the data was imported into a dataframe, data was explored using `.info()`. Through exploring the dataset, I know the shape, size, type of data in the dataset. I can determine the the null values too.
-<img width="337" alt="image" src="https://github.com/user-attachments/assets/5f339a7e-fb89-489f-88ec-33af30ee98af" />
+- After the data was imported into a dataframe, data was explored using `.info()`.
+  Through exploring the dataset, I know the shape, size, type of data in the dataset. I can determine the the null values too.
+
+  <img width="337" alt="image" src="https://github.com/user-attachments/assets/5f339a7e-fb89-489f-88ec-33af30ee98af" />
 
 From this, 2001 rows and 12 columns in the dataset were determined. Several null values in the 'Industry', 'Founded', 'Headquarters', 'CEO' and 'Employees' columns were discovered too.
 
@@ -50,6 +52,13 @@ From this, 2001 rows and 12 columns in the dataset were determined. Several null
 - 'Sales', 'Profit', 'Assets', and 'Market Values' columns were renamed by adding '(In Billions)' at the end to improve clarity of the data.
 - Structured the dataset by aggregating simliar industry for further analysis.
 (Eg. Grouping "Auto Brands", "Auto Parts", "Automotive (Automotive and Suppliers)", "National Car Dealers" into 1 category: "Automotive".)
+- Boxplot was plotted for 'Founded' column and found out there is a outlier in the dataset. `.describe()` method was used to identify the exact value of the outlier.
+  Obviously, this is a typo in the dataset. By searching the company info via internet, the founded year of the company was identified and corrected.  
+  
+  <img width="467" alt="image" src="https://github.com/user-attachments/assets/7ddbffd5-18b6-4498-9f42-dbb4f96376d1" /> <br>
+  <img width="396" alt="image" src="https://github.com/user-attachments/assets/a3417417-7d58-4e19-95fa-9c35ae979317" /> <br>
+  <img width="755" alt="image" src="https://github.com/user-attachments/assets/8d59f031-ae0c-453f-b5b8-03c162ae7d94" /> <br>
+  <img width="682" alt="image" src="https://github.com/user-attachments/assets/de23ea03-cdfc-4928-8af7-4347edfe32c6" />
 
 4) Validating:
 -  Rows that contain null values were filtered using `.isnull()`.
@@ -58,6 +67,16 @@ From this, 2001 rows and 12 columns in the dataset were determined. Several null
 5) Exploring for Presentation:
  
 6) Visualize data for Presentation:
+
+### Findings
+- Finance companies, i.e.: Banking (354 Banking companies made it in the Top 2000 list) and Diversified Financials (117 Diversified Financials companies made it in the Top 2000 list) dominate the top 2000 companies' list.
+  
+    <img width="316" alt="image" src="https://github.com/user-attachments/assets/04e86310-05e8-4f7e-8837-1d055cefa29f" />
+
+- Top 5 most profitable industries are: Conglomerate, Specialty, Construction- Chemicals- Raw Materials, Semiconductors & Automotive.
+
+    <img width="383" alt="image" src="https://github.com/user-attachments/assets/35268359-0616-4de8-8e9e-e3ac8ed35848" />
+
 
 ### Further financial analysis:
 - Perplexity AI was used to suggest some financial method to further analyze the companies.
