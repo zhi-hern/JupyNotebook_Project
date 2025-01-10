@@ -30,16 +30,34 @@ This project showcases my proficiency to perform EDA and data visualization usin
 | Seaborn (sns)  | `.barplot()`, `.boxplot()` |
 
 ### Steps taken for the EDA process
-1)  After the data was imported into a dataframe, data was explored using `.info()`. Through exploring the dataset, I know the shape, size, type of data in the dataset. I can determine the the null values too.
+
+The EDA process I took roughly follows the steps outlined below:
+
+<img width="727" alt="EDA-6-stages" src="https://github.com/user-attachments/assets/127af722-7113-4248-b4ef-d7c7ef743e4a" />
+
+1) Discovering :
+- After the data was imported into a dataframe, data was explored using `.info()`. Through exploring the dataset, I know the shape, size, type of data in the dataset. I can determine the the null values too.
 <img width="337" alt="image" src="https://github.com/user-attachments/assets/5f339a7e-fb89-489f-88ec-33af30ee98af" />
 
-From this, I can determine that there are 2001 rows and 12 columns in the dataset. There areseveral null values in the 'Industry', 'Founded', 'Headquarters', 'CEO' and 'Employees' columns.
+From this, 2001 rows and 12 columns in the dataset were determined. Several null values in the 'Industry', 'Founded', 'Headquarters', 'CEO' and 'Employees' columns were discovered too.
 
-2)  I restructred the dataset by dropping the columns that are not involved in my analysis using `.drop()`.
-3)  'Sales', 'Profit', 'Assets', and 'Market Values' columns were renamed by adding '(In Billions)' at the end to improve clarity of the data.
-4)  I checked for duplicates using `.duplicated()` method and no duplicate was found.
-5)  I structured the dataset by aggregating simliar industry for further analysis.
+- Checked for duplicates using `.duplicated()` method and no duplicate was found.
+
+2) Structuring:
+- Restructred the dataset by dropping the columns that are not involved in my analysis using `.drop()`.
+
+3) Cleaning: 
+- 'Sales', 'Profit', 'Assets', and 'Market Values' columns were renamed by adding '(In Billions)' at the end to improve clarity of the data.
+- Structured the dataset by aggregating simliar industry for further analysis.
 (Eg. Grouping "Auto Brands", "Auto Parts", "Automotive (Automotive and Suppliers)", "National Car Dealers" into 1 category: "Automotive".)
+
+4) Validating:
+-  Rows that contain null values were filtered using `.isnull()`.
+-  Null values in the 'Industry' and 'Founded' columns were filled by Googling the companies' info.
+
+5) Exploring for Presentation:
+ 
+6) Visualize data for Presentation:
 
 ### Further financial analysis:
 - Perplexity AI was used to suggest some financial method to further analyze the companies.
