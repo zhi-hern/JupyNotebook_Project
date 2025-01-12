@@ -73,10 +73,9 @@ From this, 2001 rows and 12 columns in the dataset were determined. Several null
 -  Null values in the 'Industry' and 'Founded' columns were filled by Googling the companies' info.
 
 #### 5) Exploring for Presentation:
- 
-#### 6) Visualize data for Presentation:
-
-### Findings
+- `.groupby()` was used to grouped companies based on industries to identify most profitable industry.
+  
+##### Findings:
 - Finance companies, i.e.: Banking (354 Banking companies made it in the Top 2000 list) and Diversified Financials (117 Diversified Financials companies made it in the Top 2000 list) dominate the top 2000 companies' list.
   
     <img width="316" alt="image" src="https://github.com/user-attachments/assets/04e86310-05e8-4f7e-8837-1d055cefa29f" />
@@ -84,7 +83,19 @@ From this, 2001 rows and 12 columns in the dataset were determined. Several null
 - Top 5 most profitable industries are: Conglomerate, Specialty, Construction- Chemicals- Raw Materials, Semiconductors & Automotive.
 
     <img width="383" alt="image" src="https://github.com/user-attachments/assets/35268359-0616-4de8-8e9e-e3ac8ed35848" />
+ 
+#### 6) Visualize data for Presentation:
 
+<img width="682" alt="image" src="https://github.com/user-attachments/assets/bfbe84c7-86cd-45e1-a32d-1c04418dd9af" />
+
+##### Findings:
+(i) Most of the companies in the Packaging Goods and Specialty are thriving and profitable.
+(ii) Construction- Chemicals- Raw Materials's Profits can have a big fluctuation in profits between companies.
+
+<img width="916" alt="image" src="https://github.com/user-attachments/assets/04e9a065-f69a-42fb-aaee-3c34c694a586" />
+
+##### Findings:
+(i) The distribution shows that more companies that established during the 1990s to 2000s are good at staying relevant till today.
 
 ### Further financial analysis:
 - Perplexity AI was used to suggest some financial method to further analyze the companies.
