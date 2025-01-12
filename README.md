@@ -105,3 +105,8 @@ From this, 2001 rows and 12 columns in the dataset were determined. Several null
 <img width="484" alt="image" src="https://github.com/user-attachments/assets/a9757dab-cd68-4bb6-8b51-33e9fad0b161"> <br>
 <img width="496" alt="image" src="https://github.com/user-attachments/assets/61741fff-9987-40b6-9238-bb8635cbd745">
 
+### Company analysis based on Gross Profit Margin (GPM), Asset Turnover Ratio (ATR) and Return on Assets (ROA)
+- Ranking was labeled based on these 3 indexes. (i.e.: Ranking based on GPM, Ranking based on ATR, Ranking based on ROA) 
+- In the end, all these 3 indexes were combined to deduce that the companies that were performing well in all of these indexes.
+- 4 companies (`Bayan Resources`, `Apple`, `IDEXX Laboratories` & `Yum! Brands`) were ranked in the top 300 in all 3 indexes.
+- Hence, I deduced that `Bayan Resources`, `Apple`, `IDEXX Laboratories` & `Yum! Brands` did well in managing pricing to gain profit and managing assets to convert into sales and profit.
