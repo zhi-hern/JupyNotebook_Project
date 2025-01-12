@@ -72,7 +72,7 @@ From this, 2001 rows and 12 columns in the dataset were determined. Several null
 -  Rows that contain null values were filtered using `.isnull()`.
 -  Null values in the 'Industry' and 'Founded' columns were filled by Googling the companies' info.
 
-#### 5) Exploring for Presentation:
+#### 5) Structuring Data to find trends:
 - `.groupby()` was used to grouped companies based on industries to identify most profitable industry.
   
 ##### Findings:
