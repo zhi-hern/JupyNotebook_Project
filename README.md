@@ -47,16 +47,24 @@ From this, 2001 rows and 12 columns in the dataset were determined. Several null
 
 #### 2) Structuring:
 - Restructred the dataset by dropping the columns that are not involved in my analysis using `.drop()`.
+- 'CEO' and 'Employees' columns were dropped as these columns were not required in this analysis.
+
+  <img width="872" alt="image" src="https://github.com/user-attachments/assets/58823dda-d2a8-491b-a856-05458d516c22" />
 
 #### 3) Cleaning: 
 - 'Sales', 'Profit', 'Assets', and 'Market Values' columns were renamed by adding '(In Billions)' at the end to improve clarity of the data.
 - Structured the dataset by aggregating simliar industry for further analysis.
 (Eg. Grouping "Auto Brands", "Auto Parts", "Automotive (Automotive and Suppliers)", "National Car Dealers" into 1 category: "Automotive".)
-- Boxplot was plotted for 'Founded' column and found out there is a outlier in the dataset. `.describe()` method was used to identify the exact value of the outlier.
-  Obviously, this is a typo in the dataset. By searching the company info via internet, the founded year of the company was identified and corrected.  
+- Boxplot was plotted for 'Founded' column and found out there is a outlier in the dataset. 
   
   <img width="467" alt="image" src="https://github.com/user-attachments/assets/7ddbffd5-18b6-4498-9f42-dbb4f96376d1" /> <br>
+
+- `.describe()` method was used to identify the exact value of the outlier. <br>
+
   <img width="396" alt="image" src="https://github.com/user-attachments/assets/a3417417-7d58-4e19-95fa-9c35ae979317" /> <br>
+
+- Obviously, this is a typo in the dataset. By searching the company info via internet, the founded year of the company was identified and corrected.
+  
   <img width="755" alt="image" src="https://github.com/user-attachments/assets/8d59f031-ae0c-453f-b5b8-03c162ae7d94" /> <br>
   <img width="682" alt="image" src="https://github.com/user-attachments/assets/de23ea03-cdfc-4928-8af7-4347edfe32c6" />
 
