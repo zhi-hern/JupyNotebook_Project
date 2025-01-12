@@ -89,13 +89,13 @@ From this, 2001 rows and 12 columns in the dataset were determined. Several null
 <img width="682" alt="image" src="https://github.com/user-attachments/assets/bfbe84c7-86cd-45e1-a32d-1c04418dd9af" />
 
 ##### Findings:
-(i) Most of the companies in the Packaging Goods and Specialty are thriving and profitable.
-(ii) Construction- Chemicals- Raw Materials's Profits can have a big fluctuation in profits between companies.
+- Most of the companies in the Packaging Goods and Specialty are thriving and profitable.
+- Construction- Chemicals- Raw Materials's Profits can have a big fluctuation in profits between companies.
 
 <img width="916" alt="image" src="https://github.com/user-attachments/assets/04e9a065-f69a-42fb-aaee-3c34c694a586" />
 
 ##### Findings:
-(i) The distribution shows that more companies that established during the 1990s to 2000s are good at staying relevant till today.
+- The distribution shows that more companies that established during the 1990s to 2000s are good at staying relevant till today.
 
 ### Further financial analysis:
 - Perplexity AI was used to suggest some financial method to further analyze the companies.
